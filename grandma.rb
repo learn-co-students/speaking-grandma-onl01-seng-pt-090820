@@ -52,17 +52,17 @@
 
 def speak_to_grandma(spoken)
     if spoken != spoken.upcase
-      return "HUH?! SPEAK UP SONNY"
+      return "HUH?! SPEAK UP, SONNY!"
     #elsif spoken == spoken.upcase
      # return "NO, NOT SINCE 1938!"
     elsif spoken == "I LOVE YOU GRANDMA!"
       return "I LOVE YOU TOO PUMPKIN!"
     elsif spoken == "Hi!"
-      return "HUH, SPEAK UP SONNY!"
+      return "HUH, SPEAK UP, SONNY!"
     elsif spoken == "WHAT DID YOU EAT TODAY?"
-      return "NO NOT SINCE 1938!"
+      return "NO, NOT SINCE 1938!"
     else 
-      return "NO NOT SINCE 1938!"
+      return "NO, NOT SINCE 1938!"
     end 
 end 
 
