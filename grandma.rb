@@ -61,7 +61,8 @@ def speak_to_grandma(spoken)
       puts "HUH, SPEAK UP SONNY!"
     elsif spoken == "WHAT DID YOU EAT TODAY?"
       puts "NO NOT SINCE 1938!"
-    else puts "NO NOT SINCE 1938!"
+    else 
+      puts "NO NOT SINCE 1938!"
     end 
 end 
 
