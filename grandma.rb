@@ -16,7 +16,7 @@ elsif phrase == "Hi!"
     return "HUH?! SPEAK UP, SONNY!"
 elsif phrase == "WHAT DID YOU EAT TODAY?"
     return "NO, NOT SINCE 1938!"
-elsif phrase == "WHAT?"
+else phrase == "WHAT?"
     return "NO, NOT SINCE 1938!"
 end
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
